@@ -1,8 +1,7 @@
-import React, {useState} from "react";
+import React, { useEffect, useState} from "react";
 
 import api from './services/api'
 import "./styles.css";
-import { useEffect } from "react";
 
 function App() {
 
@@ -12,7 +11,8 @@ function App() {
     api.get('repositories').then(response => {
       setRepositories(response.data)
     })
-  })
+  }, [])
+  
   async function handleAddRepository() {
     // TODO
     const response = await api.post('repositories', {
