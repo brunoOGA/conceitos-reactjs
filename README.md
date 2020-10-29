@@ -1,7 +1,7 @@
 <h1 align="center">Desafio: Conceitos do ReactJS.js</h1>
 
 ## Sobre 
-A aplicação armazena repositórios do seu portfólio, interface da backend [Conceitos Node](https://github.com/brunoOGA/desafio-conceito-node).
+A aplicação armazena repositórios do seu portfólio, interface do backend [Conceitos Node](https://github.com/brunoOGA/desafio-conceito-node).
 
 ---
 
